@@ -16,8 +16,12 @@ module.exports = {
               '@babel/preset-react'
             ],
             plugins: [
+              /**
+               * @desc the order and options of 'plugin-proposal-decorators' and 'plugin-proposal-class-properties' is very strict.
+               * @see https://babeljs.io/docs/en/next/babel-plugin-proposal-decorators.html#note-compatibility-with-babel-plugin-proposal-class-properties
+               */
               ['@babel/plugin-proposal-decorators', { 'legacy': true }],
-              '@babel/plugin-proposal-class-properties'
+              ["@babel/plugin-proposal-class-properties", { "loose": true }]
             ]
           }
         }
