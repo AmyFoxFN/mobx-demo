@@ -66,4 +66,4 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Thanks for Read
-![](pitch-assets/flower.jpg)
+![](pitch-assets/image/flower.jpg)
