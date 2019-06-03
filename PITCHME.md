@@ -1,6 +1,9 @@
 # HELLO Mobx
 
----?code=src/stores/basic.js&lang=javascript
+---?code=src/stores/basic.js&lang=javascript&color=#1E1F21
+@[3-5](Define state.)
+@[13](Modify state.)
+@[9-11](Derive Reaction.)
 
 ---
 ## Background
