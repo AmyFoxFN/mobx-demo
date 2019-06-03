@@ -1,18 +1,24 @@
 # HELLO Mobx
 
+---
+## Background
+- Tedious message passing in component stack.
+- A mechanism makes Test, Redo, Undo easier.
+
+---
+## Philosophy
+![Anything that can be derived from the application state, should be derived. Automatically.](https://mobx.js.org/docs/flow.png)
+
+---
+## Usage
+- Define state
+- Modify state
+- Derive Reaction
+
 ---?code=src/stores/basic.js&lang=javascript&color=#1E1F21
 @[3-5](Define state.)
 @[13](Modify state.)
 @[9-11](Derive Reaction.)
-
----
-## Background
-
----
-## Philosophy
-
----
-## Usage
 
 ---
 ## Usage - Define State
