@@ -7,7 +7,9 @@
 
 ---
 ## Philosophy
-![Anything that can be derived from the application state, should be derived. Automatically.](https://mobx.js.org/docs/flow.png)
+![flow](https://mobx.js.org/docs/flow.png)
+
+Anything that can be derived from the application state, should be derived. Automatically.
 
 ---
 ## Usage
