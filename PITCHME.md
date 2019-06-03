@@ -1,5 +1,7 @@
 # HELLO Mobx
 
+---?code=src/stores/basic.js&lang=javascript
+
 ---
 ## Background
 
