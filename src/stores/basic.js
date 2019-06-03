@@ -7,7 +7,7 @@ class Store {
 const store = new Store()
 
 autorun(() => {
-  console.log('autorun when count change:', store.count)
+  console.log('autorun [count]', store.count)
 })
 
 store.count++

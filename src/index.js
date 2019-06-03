@@ -1,7 +1,8 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import './stores/basic'
+// import './stores/basic'
+import './stores/observable'
 // import './style.less'
 // import store from './store'
 
