@@ -12,7 +12,6 @@ export default class App extends React.Component {
     store.sub()
   }
 
-
   render () {
     return (
       <Provider store={store}>

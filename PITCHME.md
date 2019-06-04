@@ -49,13 +49,12 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---?code=src/app.js&lang=javascript&color=#1E1F21&title=Mobx React - pass in
 @[2](pass in as context)
-@[9-15](pass in as context)
-@[13](pass in as normal prop)
+@[17-28](pass in as context)
+@[21](pass in as normal prop)
 
 ---?code=src/components/basic.js&lang=javascript&color=#1E1F21&title=Mobx React - access
-@[2](pass in as context)
-@[9-15](pass in as context)
-@[13](pass in as normal prop)
+@[2-10](inject and observe)
+@[15](access by component.props)
 
 ---
 ## Mobx State Tree
