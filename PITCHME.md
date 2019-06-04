@@ -22,11 +22,18 @@ Anything that can be derived from the application state, should be derived. Auto
 @[13](Modify state.)
 @[9-11](Derive Reaction.)
 
----
+---?code=src/stores/observable.js&lang=javascript&color=#1E1F21
 ## Usage - Define State
+@[4-7](@observable)
+@[8-10](@obserable.ref)
+@[15-24](@observable vs @observable.ref)
 
----
-## Usage - Change State
+---?code=src/stores/action.js&lang=javascript&color=#1E1F21
+## Usage - Modify State
+@[19-20](write directly)
+@[6-10](define action to write state)
+@[22](execute actio )
+@[15-22](directly vs action)
 
 ---
 ## Usage - Reaction
