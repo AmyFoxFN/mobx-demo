@@ -2,20 +2,17 @@
 
 ---
 ## Background
-
 - Tedious message passing in component stack.
 - A mechanism makes Test, Redo, Undo easier.
 
 ---
 ## Philosophy
-
 Anything that can be derived from the application state, should be derived. Automatically.
 
 ![flow](https://mobx.js.org/docs/flow.png)
 
 ---
 ## Usage
-
 - Define state
 - Modify state
 - Reaction
@@ -42,7 +39,21 @@ Anything that can be derived from the application state, should be derived. Auto
 @[17-19](observe)
 
 ---
-## Usage - with React
+## Ecology
+- Babel: @babel/plugin-proposal-decorators + @babel/plugin-proposal-class-properties
+- React: mobx-react
+- Management: mobx-state-tree
+
+---?code=webpack.config.js&lang=javascript&color=#1E1F21&title=Babel Plugin
+@[18-25](To support decorator syntax of class property)
+
+---?code=app.js&lang=javascript&color=#1E1F21&title=Mobx React
+
+---
+## Mobx State Tree
+- Immutable Snapshot(Time Traveling, Redo/undo)
+- Patch(Redo/undo - Sync with server)
+- Middleware
 
 ---
 ## Source Code
