@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/AmyFoxFN/mobx-demo.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Amy Fox",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AmyFoxFN/mobx-demo/issues"
   },
