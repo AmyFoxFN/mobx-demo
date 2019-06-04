@@ -2,17 +2,20 @@
 
 ---
 ## Background
+
 - Tedious message passing in component stack.
 - A mechanism makes Test, Redo, Undo easier.
 
 ---
 ## Philosophy
-![flow](https://mobx.js.org/docs/flow.png)
 
 Anything that can be derived from the application state, should be derived. Automatically.
 
+![flow](https://mobx.js.org/docs/flow.png)
+
 ---
 ## Usage
+
 - Define state
 - Modify state
 - Reaction
