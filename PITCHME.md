@@ -47,7 +47,7 @@ Anything that can be derived from the application state, should be derived. Auto
 ---?code=webpack.config.js&lang=javascript&color=#1E1F21&title=Babel Plugin
 @[18-25](To support decorator syntax of class property)
 
----?code=app.js&lang=javascript&color=#1E1F21&title=Mobx React
+---?code=src/app.js&lang=javascript&color=#1E1F21&title=Mobx React
 
 ---
 ## Mobx State Tree
