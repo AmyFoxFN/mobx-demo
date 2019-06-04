@@ -11,3 +11,5 @@ autorun(() => {
 })
 
 store.count++
+
+export default store
