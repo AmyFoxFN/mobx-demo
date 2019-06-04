@@ -13,7 +13,7 @@ class Store {
 const store = new Store()
 
 autorun(() => {
-  console.log('autorun [count]', store.count)
+  console.log('autorun [count]:', store.count)
 })
 
 store.count++

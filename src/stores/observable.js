@@ -13,11 +13,11 @@ class Store {
 const store = new Store()
 
 autorun(() => {
-  console.log('autorun [obj.a]', store.obj.a)
+  console.log('autorun [obj.a]:', store.obj.a)
 })
 
 autorun(() => {
-  console.log('autorun [objRef.a]', store.objRef.a)
+  console.log('autorun [objRef.a]:', store.objRef.a)
 })
 
 store.obj.a++

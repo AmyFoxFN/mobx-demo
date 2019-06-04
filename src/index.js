@@ -3,7 +3,8 @@ import * as ReactDOM from 'react-dom'
 
 // import './stores/basic'
 // import './stores/observable'
-import './stores/action'
+// import './stores/action'
+import './stores/reaction'
 // import './style.less'
 // import store from './store'
 
