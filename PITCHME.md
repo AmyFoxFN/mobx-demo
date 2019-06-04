@@ -64,9 +64,18 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Source Code
+- observable mechanism
+- the implement differences of three reactions (autorun, reaction, observe).
+- action: Why only one reaction triggered by multi-modifies in an action.
 
 ---
 ## Source - observable
+- primitive type: Object.defineProperty
+- object, array: Proxy
+
+---?code=mobx/src/types/observableobject.ts&lang=javascript&color=#1E1F21&title=Object.defineProperty
+@[182](Object.defineProperty)
+@[347-361](generateObservablePropConfig - set - write)
 
 ---
 ## Source - Reaction
