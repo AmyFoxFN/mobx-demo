@@ -17,7 +17,7 @@ Anything that can be derived from the application state, should be derived. Auto
 - Modify state
 - Reaction
 
----?code=src/stores/basic.js&lang=javascript&color=#1E1F21
+---?code=src/stores/basic.js&lang=javascript&color=#1E1F21&title=Basic Usage
 @[3-5](Define state.)
 @[13](Modify state.)
 @[9-11](Reaction.)
