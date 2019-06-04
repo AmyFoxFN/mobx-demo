@@ -51,8 +51,8 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Mobx State Tree
-- Immutable Snapshot(Time Traveling, Redo/undo)
-- Patch(Redo/undo - Sync with server)
+- Immutable Snapshot (Time Traveling, Redo/undo)
+- Patch (Redo/undo - Sync with server)
 - Middleware
 
 ---
