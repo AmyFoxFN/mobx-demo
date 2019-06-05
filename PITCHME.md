@@ -75,33 +75,39 @@ Anything that can be derived from the application state, should be derived. Auto
 ![](assets/image/mobx-inheritance.png)
 
 ---
-## Source - observable
+## observable
 - Primitive: Object.defineProperty (clue: addObservableProp)
 - Object: Proxy (clue: createDynamicObservableObject)
 
 ---
-## Source - Reaction
+## Reaction
 - basic: reportChanged + notifyListeners
 - autorun: trigger at first time.
 - reaction: track expression, don't trigger at first time.
 - observe: registerListener
 
 ---
-## Source - action
+## action
 - executeAction
 - Batch: global lock
 
 ---
 ## Performance
+- Execute Time
+- Re-render
+- Memory
 
 ---
-## Performance - execute time
+## Execute time
+- autorun, reaction, observe are almost same.
+- 1ms(prepare) + X(execute effect) + 1ms(ending)
+- So, I think, mobx maybe not appropriate to track states that changed frequently.
 
 ---
-## Performance - re-render
+## Re-render
 
 ---
-## Performance - memory
+## Memory
 
 ---
 ## Summary
