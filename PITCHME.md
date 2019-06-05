@@ -64,21 +64,32 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Source Code
-- directory structure
-- observable mechanism
-- the implement differences of three reactions (autorun, reaction, observe).
-- action: Why only one reaction triggered by multi-modifies in an action.
+- Directory
+- Inheritance
+- Observable
+- Reaction (autorun, reaction, observe).
+- Action (Why only one reaction triggered by multi-modifies in an action.?)
+
+---
+## Inheritance
+![](assets/image/inheritance.png)
 
 ---
 ## Source - observable
-- primitive type: Object.defineProperty [clue: generateObservablePropConfig]
-- object, array: Proxy [clue: new Proxy]
+- Primitive: Object.defineProperty (clue: addObservableProp)
+- Object: Proxy (clue: createDynamicObservableObject)
 
 ---
 ## Source - Reaction
+- basic: reportChanged + notifyListeners
+- autorun: trigger at first time.
+- reaction: track expression, don't trigger at first time.
+- observe: registerListener
 
 ---
 ## Source - action
+- executeAction
+- Batch: global lock
 
 ---
 ## Performance
@@ -100,4 +111,4 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Thanks for Read
-![](pitch-assets/image/flower.jpg)
+![](assets/image/flower.jpg)
