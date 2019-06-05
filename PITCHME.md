@@ -70,9 +70,9 @@ Anything that can be derived from the application state, should be derived. Auto
 - Reaction (autorun, reaction, observe).
 - Action (Why only one reaction triggered by multi-modifies in an action.?)
 
----
+---?color=#FAD8DF
 ## Inheritance
-![](assets/image/inheritance.png)
+![](assets/image/mobx-inheritance.png)
 
 ---
 ## Source - observable
