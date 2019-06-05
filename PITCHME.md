@@ -100,8 +100,9 @@ Anything that can be derived from the application state, should be derived. Auto
 ---
 ## Execute time
 - autorun, reaction, observe are almost same.
-- 1ms(prepare) + X(execute effect) + 1ms(ending)
-- So, I think, mobx maybe not appropriate to track states that changed frequently.
+- Create: 2~3ms
+- Every time change: 1ms(prepare) + X(execute effect + read state) + 1ms(ending)
+- In consideration of the prepare time and ending time for every change, mobx maybe not appropriate to track states that changed frequently.
 
 ---
 ## Re-render
