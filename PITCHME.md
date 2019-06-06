@@ -99,13 +99,15 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Execute time
-- autorun, reaction, observe are almost same.
-- Create: 2~3ms
-- Every time change: 1ms(prepare) + X(execute effect + read state) + 1ms(ending)
-- In consideration of the prepare time and ending time for every change, mobx maybe not appropriate to track states that changed frequently.
+- observe < reaction ≈ autorun
+- autorun create time is relatively long.
+- For autorun and reaction, the prepare time and ending time for every change take 0.5 ~ 1ms. So, maybe not appropriate to track states that changed frequently.
+- get observable state ≈ 0.5ms
 
 ---
 ## Re-render
+- Reduce re-render range: Use smaller component + Dereference values late.
+- Reduce re-render times: Use Action.
 
 ---
 ## Memory

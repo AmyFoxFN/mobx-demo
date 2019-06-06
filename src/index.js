@@ -8,7 +8,7 @@ import App from './app'
 // import './stores/reaction'
 import './stores/execute-time'
 
-ReactDOM.render(
-  <App />,
-  document.getElementById("app")
-)
+// ReactDOM.render(
+//   <App />,
+//   document.getElementById("app")
+// )
