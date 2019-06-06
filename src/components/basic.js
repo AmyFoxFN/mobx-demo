@@ -12,7 +12,7 @@ export default class Basic extends React.Component {
   render () {
     return (
       <div>
-        basic component [count]: {this.props.store.count}
+        [count]: {this.props.store.count}
       </div>
     )
   }
