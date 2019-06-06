@@ -1,6 +1,7 @@
 # HELLO Mobx
 
---- Main Content
+---
+## Main Content
 - Usage
 - Ecology
 - Source Code
@@ -56,7 +57,6 @@ Anything that can be derived from the application state, should be derived. Auto
 ---?code=src/app.js&lang=javascript&color=#1E1F21&title=Mobx React - pass in
 @[2](pass in as context)
 @[17-28](pass in as context)
-@[20-21](pass in as normal prop)
 
 ---?code=src/components/basic.js&lang=javascript&color=#1E1F21&title=Mobx React - access
 @[2-10](inject and observe)
@@ -64,9 +64,9 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Mobx State Tree
-- Immutable Snapshot (Time Traveling, Redo/undo)
-- Patch (Redo/undo - Sync with server)
-- Middleware
+- Snapshot (Immutable)
+- Patch
+- Redo/undo
 
 ---
 ## Source Code
@@ -82,8 +82,10 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## observable
-- Primitive: Object.defineProperty [clue: addObservableProp]
-- Object: Proxy [clue: createDynamicObservableObject]
+- Primitive: Object.defineProperty
+  [clue: addObservableProp]
+- Object: Proxy
+  [clue: createDynamicObservableObject]
 
 ---
 ## Reaction
