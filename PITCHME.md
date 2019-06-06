@@ -114,9 +114,15 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Summary
+- Usage: simple, but a little distributed
+- Ecology: convenient
+- Source: nice
+- Performance: not bad, but be careful.
 
 ---
 ## Future
+- Memory?
+- Mobx State Tree
 
 ---
 ## Thanks for Read
