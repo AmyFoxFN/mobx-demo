@@ -110,7 +110,7 @@ Anything that can be derived from the application state, should be derived. Auto
 - observe < reaction ≈ autorun
 - autorun create time is relatively long.
 - For autorun and reaction, the prepare time and ending time for every change take 0.5 ~ 1ms. So, maybe not appropriate to track states that changed frequently.
-- get observable state ≈ 0.5ms
+- get observable state ≈ 0.4ms
 
 ---
 ## Re-render
@@ -131,7 +131,3 @@ Anything that can be derived from the application state, should be derived. Auto
 ## Future
 - Memory?
 - Mobx State Tree
-
----
-## Thanks for Read
-![](assets/image/flower.jpg)
