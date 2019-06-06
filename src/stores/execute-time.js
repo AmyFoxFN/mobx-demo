@@ -11,7 +11,7 @@ autorun(function autorunEffectXXX () {
 })
 
 reaction(function reactionExpressionXXX () {
-  console.log('reaction expression [count]', store.count)
+  // console.log('reaction expression [count]', store.count)
   return store.count
 } , function reactionEffectXXX() {
   console.log('reaction [count]:', store.count)

@@ -107,10 +107,9 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Execute time
-- observe < reaction ≈ autorun
-- autorun create time is relatively long.
+- autorun > reaction >> observe
 - For autorun and reaction, the prepare time and ending time for every change take 0.5 ~ 1ms. So, maybe not appropriate to track states that changed frequently.
-- get observable state ≈ 0.4ms
+- Use observe preferentially.
 
 ---
 ## Re-render
