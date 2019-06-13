@@ -11,3 +11,5 @@ autorun(() => {
 })
 
 store.count++
+
+console.log('Here is the sync code block after store.count++')
