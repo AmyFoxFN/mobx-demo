@@ -11,11 +11,17 @@ autorun(function autorunEffectXXX () {
 })
 
 reaction(function reactionExpressionXXX () {
-  // console.log('reaction expression [count]', store.count)
   return store.count
 } , function reactionEffectXXX() {
   console.log('reaction [count]:', store.count)
 })
+
+/* use reaction effect data. */
+// reaction(function reactionExpressionXXX2 () {
+//   return store.count
+// } , function reactionEffectXXX2(data) {
+//   console.log('reaction2 [count]:', data)
+// })
 
 observe(store, 'count', function observeEffectXXX({ newValue, oldValue }) {
   console.log('observe [count]:', oldValue, '->', newValue)

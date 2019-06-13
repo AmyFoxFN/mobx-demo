@@ -4070,6 +4070,10 @@ function generateObservablePropConfig$$1(propName) {
             configurable: true,
             enumerable: true,
             get: function () {
+                /**
+                 * @debug
+                 */
+                // console.log('get')
                 return this[$mobx$$1].read(propName);
             },
             set: function (v) {
