@@ -1,4 +1,4 @@
-import { observable, action, autorun, reaction, observe } from 'mobx'
+import { observable, action, autorun, reaction } from 'mobx'
 
 class Store {
   @observable count = 0
