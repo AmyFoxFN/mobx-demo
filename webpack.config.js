@@ -3,6 +3,11 @@ const path = require('path')
 
 module.exports = {
   entry: './src/index.js',
+  resolve: {
+    alias: {
+      mobx: path.join(__dirname, './mobx/mobx.module.js')
+    }
+  },
   module: {
     rules: [
       {
