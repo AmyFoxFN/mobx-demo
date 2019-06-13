@@ -52,7 +52,7 @@ Anything that can be derived from the application state, should be derived. Auto
 - Management: mobx-state-tree
 
 ---?code=webpack.config.js&lang=javascript&color=#1E1F21&title=Babel Plugin
-@[18-25](To support decorator syntax of class property)
+@[23-30](To support decorator syntax of class property)
 
 ---?code=src/app.js&lang=javascript&color=#1E1F21&title=Mobx React - pass in
 @[2](pass in as context)
@@ -74,7 +74,7 @@ Anything that can be derived from the application state, should be derived. Auto
 - Inheritance
 - Observable
 - Reaction (autorun, reaction, observe).
-- Action (Why only one reaction triggered by multi-modifies in an action.?)
+- Action (Why only one reaction triggered by multi-modifies in an action?)
 
 ---?color=#FAD8DF
 ## Inheritance
