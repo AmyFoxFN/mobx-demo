@@ -107,7 +107,7 @@ Anything that can be derived from the application state, should be derived. Auto
 
 ---
 ## Execute time
-- autorun > reaction >> observe
+- autorun ≈ reaction >> observe
 - Use observe preferentially.
 - Use reaction effect argument-data preferentially.
 - For autorun and reaction, the prepare time and ending time for every change take 0.5 ~ 1ms. So, maybe not appropriate to track states that changed frequently.
