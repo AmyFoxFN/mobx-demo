@@ -1,12 +1,11 @@
 import { observable, autorun } from 'mobx'
 
 class Store {
-  @observable count = 0
   @observable obj = {
-    a: 1
+    a: 0
   }
   @observable.ref objRef = {
-    a: 1
+    a: 0
   }
 }
 

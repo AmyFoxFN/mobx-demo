@@ -30,9 +30,9 @@ Anything that can be derived from the application state, should be derived. Auto
 @[9-11](Reaction.)
 
 ---?code=src/stores/observable.js&lang=javascript&color=#1E1F21&title=Define State
-@[4-7](@observable)
-@[8-10](@obserable.ref)
-@[15-24](@observable vs @observable.ref)
+@[4-6](@observable)
+@[7-9](@obserable.ref)
+@[14-23](@observable vs @observable.ref)
 
 ---?code=src/stores/action.js&lang=javascript&color=#1E1F21&title=Modify State
 @[19-20](modify directly)
