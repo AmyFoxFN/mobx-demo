@@ -21,29 +21,29 @@ Anything that can be derived from the application state, should be derived. Auto
 ---
 ## Usage
 - Define state
+- Register reaction
 - Modify state
-- Reaction
 
 ---?code=src/stores/basic.js&lang=javascript&color=#1E1F21&title=Basic Usage
 @[3-5](Define state.)
+@[9-11](Register reaction.)
 @[13](Modify state.)
-@[9-11](Reaction.)
 
 ---?code=src/stores/observable.js&lang=javascript&color=#1E1F21&title=Define State
 @[4-6](@observable)
 @[7-9](@obserable.ref)
 @[14-23](@observable vs @observable.ref)
 
+---?code=src/stores/reaction.js&lang=javascript&color=#1E1F21&title=Register Reaction
+@[9-11](autorun)
+@[13-15](reaction)
+@[17-19](observe)
+
 ---?code=src/stores/action.js&lang=javascript&color=#1E1F21&title=Modify State
 @[19-20](modify directly)
 @[6-10](define action to modify state)
 @[22](execute action)
 @[15-22](directly vs action)
-
----?code=src/stores/reaction.js&lang=javascript&color=#1E1F21&title=Reaction
-@[9-11](autorun)
-@[13-15](reaction)
-@[17-19](observe)
 
 ---
 ## Ecology
